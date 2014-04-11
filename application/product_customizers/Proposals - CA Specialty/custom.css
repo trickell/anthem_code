@@ -1,0 +1,25 @@
+.formtable .row_hasmed td.rowField { padding-left: 200px; }
+
+.statement_table { border-collapse: collapse; color: #333; }
+.statement_table th { text-align: left; border: 1px solid #DDD; padding: 2px; white-space: nowrap; }
+.statement_table td { border: 1px solid #DDD; padding: 2px; }
+.statement_table .headings th { border: 1px solid #B7C0C9; background-color: #6F8092; color: #fff; white-space: normal; }
+.statement_table .percent, .statement_table .annual_savings, .statement_table .specialty_cost, .statement_table .specialty_savings { text-align: right; }
+.statement_table input.text { width: 6em; padding: 0 2px; text-align: right; }
+.statement_table th label { cursor: pointer; }
+.statement_table .notAvailable th, .statement_table .notAvailable td { color: #BBB; background-color: #EFEFEF; }
+
+.servicesTable { border-collapse: collapse; border: none; }
+.servicesTable th, .servicesTable td.rowField { padding: 2px; }
+.servicesTable td.rowField { width: 150px; }
+.servicesTable td.rowLabel { width: 220px !important; }
+.servicesTable .inNet { background-color: #CED6DE; }
+
+.dentalnetServices .rowField, .dentalnetServices .colField { width: 150px !important; }
+.dentalnetServices .rowLabel, .dentalnetServices .colLabel { width: 300px !important; }
+
+.bvvisionServices .rowField, .bvvisionServices .colField { width: 150px !important; }
+.bvvisionServices .rowLabel, .bvvisionServices .colLabel { width: 300px !important; }
+
+.proposed_plan { margin-top: 1em !important; }
+.dentalblue_riders { margin-top: 1em !important; margin-bottom: 1em !important; }

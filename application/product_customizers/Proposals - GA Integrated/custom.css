@@ -1,0 +1,18 @@
+.row_cover_style label { display: block; margin: 4px 0; min-height: 24px; line-height: 24px; }
+.row_cover_style label img, .row_approved_docs label img { vertical-align: middle; }
+
+.statement_table { border-collapse: collapse; color: #333; }
+.statement_table th { text-align: left; border: 1px solid #DDD; padding: 2px; white-space: nowrap; }
+.statement_table td { border: 1px solid #DDD; padding: 2px; }
+.statement_table .headings th { border: 1px solid #B7C0C9; background-color: #6F8092; color: #fff; white-space: normal; }
+.statement_table .percent, .statement_table .annual_savings, .statement_table .specialty_cost, .statement_table .specialty_savings { text-align: right; }
+.statement_table input.text { width: 6em; padding: 0 2px; text-align: right; }
+.statement_table th label { cursor: pointer; }
+.statement_table .notAvailable th, .statement_table .notAvailable td { color: #BBB; background-color: #EFEFEF; }
+
+.row_dental_template_row td.rowField{ padding-left: 20px; }
+.row_dental_template_row img { vertical-align: middle; }
+
+.proposed_plan { margin-top: 1em !important; }
+
+.medical_plans label { display: inline-block; width: 80px; margin: 3px 6px; }

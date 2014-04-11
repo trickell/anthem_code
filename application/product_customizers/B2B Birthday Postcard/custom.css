@@ -1,0 +1,76 @@
+.row_ad_image .rowField {
+	width: 650px !important;
+}
+
+.row_ad_image .rowError {
+	width: 1px !important;
+}
+
+.row_ad_image label {
+	position: relative;
+	display: block;
+	float: left;
+	width: 280px;
+	height: 180px;
+	text-align: center;
+	margin: 0 0 20px;
+	cursor: pointer;
+}
+
+.row_ad_image label  input {
+	position: absolute;
+	top: 210px;
+	left: 150px;
+}
+
+.imageSelection {
+	padding: 20px 0px 20px 0px;
+	font-weight: bold;
+}
+
+#ad_body {
+  border:none;
+}
+
+.month_error {
+    position: absolute;
+	left: 500px;
+    top: 80px;
+	color: maroon;
+	font-weight: bold;
+}
+
+.downloaddiv { padding: 5px 5px 5px 5px;}
+
+#upload_page .colLabel, .row_approval_checkbox .rowLabel  {
+	width: 1px;
+}
+
+.row_approval_checkbox .rowField {
+	width: 750px;
+}
+
+.row_approval_checkbox .rowError {
+	width: 1px !important;
+}
+
+.row_approval_checkbox label {
+	position: relative;
+	display: block;
+	float: left;
+	width: 700px;	
+	text-align: left;
+	margin:0px;
+}
+
+.summaryHead {padding: 5px 5px 5px 5px; font-weight: bold;}
+
+.summaryBody {padding: 0px 0px 20px 0px;}
+.summaryBody li { text-indent: 10px; list-style-type: circle; list-style: inside;}
+ul.second li  { text-indent: 30px; list-style-type: disc; list-style: inside;}
+ul.third li  { text-indent: 50px; list-style-type: disc; list-style: inside;}
+.addressblock {  text-indent: 0px; padding: 0 0 0 30px; }
+
+.redlink a:link, .redlink a:visited, .redlink a:hover, .redlink a:active {
+  color: red;
+}

@@ -1,0 +1,2 @@
+VenderSourceCode,ListSourceCode,ListSourceKey,ProspectID,DUNSNumber,DM_EventCode,FU_DM_EventCode,FU_EM_EventCode,FU_OTM_EventCode,BusinessName,ContactName,ContactTitle,Address1,Address2,City,State,Zip5,Zip4,CarrierRoute,DeliveryPoint,Phone,EmployeeTotal,SIC,YearStarted,RenewalDate,IsEmailAvailable,EmailAddress,PURL
+,,,,,,,,,ABC Company,John Smith,Sales Manager,100 Main Street,Suite 200,Louisville,KY,40217,2997,,,,650,50840604,,,,,www.fetter.us

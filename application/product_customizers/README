@@ -1,0 +1,29 @@
+This directory is used to store product customizers.
+
+Each customizer should be stored as a folder.  The folder should be named
+based on the product_customizers.name value from the database.
+
+Each folder can contain these items:
+
+  - product.php (Required)
+	Contains the CustomProductTemplate-based class that handles rendering the
+	customizer, verifying input, etc.
+	This class should ALWAYS be called "CustomProduct"
+
+	This class should also handle the AJAX calls!
+
+  - custom.js
+	Contains any JavaScript needed for this customizer. (auto-included)
+
+  - custom.css
+	Contains any custom CSS needed for this customizer. (auto-included)
+
+  - images/*
+	Contains any unique images needed for this customizer.
+
+Beyond this, anything else within the folder can be loaded using the url format:
+
+site_url('customize/product/<<pid>>/files/<relative/path/to/item>');
+
+This will look for an item in /relative/path/to/, under the product folder.
+It will attempt to return the item with the correct mimetype.

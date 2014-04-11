@@ -1,0 +1,98 @@
+/*****************************************************************************
+* Shared proposals styling
+******************************************************************************/
+#opportunity_id { width: 12em; }
+#opportunity_id_button, #opportunity_id_clear { margin-left: .5em; }
+#iavenue_response { padding: .5em 2em; }
+#iavenue_response.error { font-weight: bold; color: #800; }
+
+.opportunityResultsTable {
+	border-collapse: collapse;
+	border: 1px solid #EEE;
+	margin: .25em 0 1em;
+}
+.opportunityResultsTable td, .opportunityResultsTable th { border: 1px solid #EEE; padding: .25em .5em; }
+.opportunityResultsTable th { text-align: left; padding-right: 1em; }
+
+#number_of_employees { width: 5em; }
+#sic { width: 8em; }
+#message_attach_name { width: 20em; }
+#message_body { width: 99%; margin: .25em 0 0 .25em; }
+#message_body_label { color: #333; font-weight: bold; }
+
+#preview_response .spinner {
+	height: 40px;
+	background: transparent url(../images/waiting-light.gif) no-repeat 50% 50%;
+	margin: .5em 0 .25em;
+}
+#preview_response.error .spinner {
+	background-image: url(../images/icons/warning-large.png);
+}
+* html #preview_response.error .spinner {
+	background-image: url(../images/icons/warning-large-ie6.png);
+}
+#preview_response .spinner.complete {
+	text-align: center;
+	background-image: none;
+	padding: 8px;
+	height: 24px;
+	line-height: 24px;
+}
+#preview_response .spinner.complete img {
+	vertical-align: middle;
+}
+#preview_response .message {
+	font-weight: bold;
+	text-align: center;
+}
+#preview_response .submessage {
+	font-weight: normal;
+}
+#preview_response .error {
+	color: #800;
+}
+#preview_response .status {
+	font-style: italic;
+	text-align: center;
+	margin: 1em 0;
+}
+#preview_response .combining {
+	background: url(../images/combine-pdfs.jpg) no-repeat 50% 0;
+}
+#preview_response .fileStatus {
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 100%;
+}
+#preview_response .fileStatus td {
+	text-align: left;
+	border: 1px solid #EEE;
+	border-width: 1px 0;
+	padding: .25em 1em;
+}
+#preview_response .fileStatus .fileName {
+	font-style: normal;
+	white-space: nowrap;
+}
+#preview_response .fileStatus .status {
+	font-size: 11px;
+	width: 100%;
+}
+#preview_response .fileStatus .icon {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: transparent url(../images/waiting-light-tiny.gif) no-repeat 0 0;
+}
+#preview_response .fileStatus .complete {
+	color: #888;
+}
+#preview_response .fileStatus .complete .icon {
+	background-image: url(../images/icons/success-generate.png);
+}
+#preview_response .fileStatus .error .icon {
+	background-image: url(../images/icons/warning.png);
+}
+* html #preview_response .fileStatus .error .icon {
+	background-image: url(../images/icons/warning-ie6.png);
+}

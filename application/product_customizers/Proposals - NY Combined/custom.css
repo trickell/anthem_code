@@ -1,0 +1,18 @@
+.name_row input.text { width: 14em; }
+
+.row_products .selAllButton, .row_products .selNoneButton { display: block; width: 80px; margin: .25em 1.5em .75em auto; text-align: center; }
+.row_products label { display: block; float: left; width: 160px; margin: .25em 20px 0 0; height: 17px; overflow: visible; white-space: nowrap; }
+
+.row_cover_style label { display: block; margin: 4px 0; min-height: 24px; line-height: 24px; }
+.row_cover_style label img, .row_approved_docs_4 label img, .row_approved_docs_5 label img { vertical-align: middle; }
+
+#cover_additional { width: 550px; height: 200px; }
+
+.statement_table { border-collapse: collapse; color: #333; }
+.statement_table th { text-align: left; border: 1px solid #DDD; padding: 2px; white-space: nowrap; }
+.statement_table td { border: 1px solid #DDD; padding: 2px; }
+.statement_table .headings th { border: 1px solid #B7C0C9; background-color: #6F8092; color: #fff; white-space: normal; }
+.statement_table .percent, .statement_table .annual_savings, .statement_table .specialty_cost, .statement_table .specialty_savings { text-align: right; }
+.statement_table input.text { width: 6em; padding: 0 2px; text-align: right; }
+.statement_table th label { cursor: pointer; }
+.statement_table .notAvailable th, .statement_table .notAvailable td { color: #BBB; background-color: #EFEFEF; }

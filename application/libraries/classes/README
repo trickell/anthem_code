@@ -1,0 +1,4 @@
+This directory is used to store general classes.
+
+Classes in the top-level of this directory are auto-loaded as needed, but
+the file *must* match the class name exaclty, including case!
